@@ -1,11 +1,11 @@
-[Seaborn](https://seaborn.pydata.org/api.html) é uma ferramenta para plotar gráficos em python baseada em [Matplotlib](https://matplotlib.org/stable/api/index).
+[Seaborn](https://seaborn.pydata.org/api.html) é uma ferramenta para visualizar e plotar gráficos em python baseada em [Matplotlib](https://matplotlib.org/stable/api/index).
 ## Importar
+[[Pandas]]
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-## Carregar dados [[Pandas]]
 ## Plotar
 ```python
 serie = pd.read_csv('path/to/file.csv')

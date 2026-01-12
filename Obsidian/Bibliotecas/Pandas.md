@@ -31,7 +31,7 @@ Por indexação:
 serie.iloc[0] # No "ID" 0
 serie.iloc[row, col] 
 ```
-Por texto ou condicional (é possível usar [[Lista#Comprehensions]]):
+Por texto ou condicional (é possível usar comprehensions):
 ```python
 serie.loc[0, 'country'] 
 serie.loc[:, ['taster_name', 'taster_twitter_handle', 'points']]

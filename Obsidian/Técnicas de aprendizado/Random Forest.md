@@ -1,7 +1,7 @@
 ### Princípio
 Random forest é um modelo que combina diversas [[Árvore de decisão]] reduzindo overfitting.
 ## Utilização
-[[Scikit-learn#Regressão]]
+[[Scikit-learn]] | [Docs](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 Parâmetros importantes:
 - `n_estimators`: int
 - ``max_depth``: int

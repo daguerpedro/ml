@@ -4,7 +4,7 @@ Uma árvore de decisão é um modelo de regressão que segue o princípio de um 
 2. Capturar padrões
 3. Predição baseada em fit/treino
 ## Utilização
-[[Scikit-learn#Regressão]]
+[[Scikit-learn]] | [Docs](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html#sklearn.tree.DecisionTreeRegressor)
 Parâmetros importantes:
 - ``max_depth``: int
 - ``max_leaf_nodes``: int

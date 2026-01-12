@@ -7,4 +7,4 @@ As alternativas de contorno para valores nulos são:
 	reduced_X_train = X_train.drop(cols_with_missing, axis=1)
 	reduced_X_valid = X_valid.drop(cols_with_missing, axis=1)
 	```
-- [[Imputation]]
+- Mas a mais recomendada é: [[Imputation]]

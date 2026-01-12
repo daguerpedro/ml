@@ -1,4 +1,4 @@
-A técnica de validação cruzada consiste em dividir os dados do modelo em diferentes partes e usa-los para [[Aprendizado de Máquina/Treino]] e [[Validação]], avaliando quão bem o modelo generaliza dados ainda não vistos.  Por exemplo, dividimos os dados em 5 partes e para cada parte utilizamos os dados como validação e as outras partes como treino.
+A técnica de validação cruzada consiste em dividir os dados do modelo em diferentes partes e usa-los para [[Treino]] e [[Validação]], avaliando quão bem o modelo generaliza dados ainda não vistos.  Por exemplo, dividimos os dados em 5 partes e para cada parte utilizamos os dados como validação e as outras partes como treino.
 
 Validação cruzada devolve uma métrica de qualidade de modelo mais precisa, no entanto pode levar mais tempo para ser avaliada.
 

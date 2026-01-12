@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "227f31301970a38b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6ac4e972f43819e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6a1110980a3c95c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8f0c304794881e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "488a086f05e4f94b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc42522a896b4a30",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3f0fa53301f4afa9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Camadas",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "294234cb91be2f04",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5
+  },
+  "right": {
+    "id": "d7e66ab764e8cf9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6f51590e08e7e76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f4b30e03bdca8b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "edfbc6c3094a8f00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "45630bb72071866e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4853d2b299969508",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "6b16cf7b1ad95d57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b6a1110980a3c95c",
+  "lastOpenFiles": [
+    "Bibliotecas/Seaborn.md",
+    "Bibliotecas/Scikit-learn.md",
+    "Bibliotecas/Pandas.md",
+    "Técnicas de aprendizado/XGBoost.md",
+    "Técnicas de aprendizado/Árvore de decisão.md",
+    "Técnicas de aprendizado/Random Forest.md",
+    "Aprendizado de Máquina/Imputation.md",
+    "Técnicas de aprendizado",
+    "Bibliotecas",
+    "Aprendizado de Máquina/Lista.md",
+    "Aprendizado de Máquina/Pipelines.md",
+    "Explicabilidade/Feature Importance.md",
+    "Explicabilidade",
+    "Redes Neurais/Stochastic Gradient Descent.md",
+    "Redes Neurais/Definindo uma rede neural.md",
+    "Redes Neurais/Aprendizado neural.md",
+    "Redes Neurais/Redes neurais.md",
+    "Redes Neurais/Neurônio.md",
+    "Redes Neurais/Curvas de aprendizado.md",
+    "Untitled.canvas",
+    "Aprendizado de Máquina/Validação.md",
+    "Aprendizado de Máquina/Treino.md",
+    "Aprendizado de Máquina/Validação cruzada.md",
+    "Aprendizado de Máquina",
+    "Aprendizado de Máquina/Valores categóricos.md",
+    "Aprendizado de Máquina/Valores nulos.md",
+    "Redes Neurais",
+    "Kaggle/ML - Intermediário.md",
+    "ML - Introdução.md",
+    "Lis.md",
+    "Python - Revisão.md",
+    "Kaggle"
+  ]
+}

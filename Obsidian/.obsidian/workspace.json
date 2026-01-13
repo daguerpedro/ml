@@ -11,10 +11,14 @@
             "id": "d4234879a5426939",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Técnicas de contorno/Validação cruzada.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Validação cruzada"
             }
           }
         ]
@@ -176,28 +180,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "cc42522a896b4a30",
+  "active": "d4234879a5426939",
   "lastOpenFiles": [
-    "Redes Neurais/Redes neurais.md",
-    "Redes Neurais/Neurônio.md",
+    "Técnicas de contorno/Pipelines.md",
+    "Técnicas de contorno/Imputation.md",
+    "Técnicas de contorno/Valores categóricos.md",
+    "Técnicas de contorno/Validação cruzada.md",
+    "Técnicas de contorno/Treino.md",
+    "Técnicas de contorno/Validação.md",
+    "Técnicas de aprendizado/Árvore de decisão.md",
+    "Bibliotecas/Scikit-learn.md",
     "Redes Neurais/Definindo uma rede neural.md",
     "Redes Neurais/Aprendizado neural.md",
+    "Bibliotecas/Seaborn.md",
+    "Bibliotecas/Pandas.md",
+    "Redes Neurais/Redes neurais.md",
+    "Redes Neurais/Neurônio.md",
     "Técnicas de aprendizado/XGBoost.md",
     "Técnicas de aprendizado/Random Forest.md",
-    "Técnicas de aprendizado/Árvore de decisão.md",
     "Técnicas de contorno/Valores nulos.md",
-    "Técnicas de contorno/Valores categóricos.md",
     "Explicabilidade/Feature Importance.md",
     "Redes Neurais/Stochastic Gradient Descent.md",
-    "Técnicas de contorno/Validação cruzada.md",
-    "Técnicas de contorno/Validação.md",
-    "Técnicas de contorno/Pipelines.md",
-    "Técnicas de contorno/Treino.md",
-    "Técnicas de contorno/Imputation.md",
-    "Bibliotecas/Pandas.md",
     "Aprendizado de Máquina/Lista - Revisão.md",
-    "Bibliotecas/Scikit-learn.md",
-    "Bibliotecas/Seaborn.md",
     "Técnicas de aprendizado",
     "Bibliotecas",
     "Explicabilidade",

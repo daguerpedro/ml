@@ -16,4 +16,4 @@ A fundamentação teórica base vem dos cursos [Kaggle](https://www.kaggle.com/l
 O conhecimento desenvolvido ao longo dos cursos estão salvos no diretório [`Obsidian`](/Obsidian/), a ferramenta [Obsidian](https://obsidian.md/) foi utilizada como apoio e maneira de visualizar os MarkDowns. 
 
 ## Prática
-Os códigos serão armazenados dentro do ambiente virtual no diretório [`venv`](/venv/)
+A prática do curso estará disponível no diretório [`codigo`](/codigo/).  

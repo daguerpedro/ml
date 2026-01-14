@@ -12,10 +12,11 @@ from sklearn.compose import ColumnTransformer
 data = pd.read_csv('E:/Programação/Kaggle/datasets/home-data-for-ml-course/train.csv')
 data.drop(columns=['Id'], inplace=True)
 
-x_train, x_val, y_train, y_val = train_test_split(data.drop(columns=['SalePrice'], axis=1), data['SalePrice'], train_size=0.8, random_state=1)
+x = data.drop(columns=['SalePrice'], axis=1)
+#x_train, x_val, y_train, y_val = train_test_split(x, data['SalePrice'], train_size=0.8, random_state=1)
 
-cat = x_train.select_dtypes(include=['object']).columns
-num = x_train.select_dtypes(exclude=['object']).columns
+cat = x.select_dtypes(include=['object']).columns
+num = x.select_dtypes(exclude=['object']).columns
 
 preproc = ColumnTransformer(transformers=[
     (
@@ -40,8 +41,13 @@ pipe = Pipeline(steps=[
     ('model', RandomForestRegressor(random_state=1))
 ])
 
-pipe.fit(x_train, y_train)
-preds = pipe.predict(x_val)
-mae = mean_absolute_error(y_true=y_val, y_pred=preds)
+maes = -1*cross_val_score(
+    pipe, 
+    X=x, 
+    y=data['SalePrice'],
+    scoring='neg_mean_absolute_error',
+    cv=5,
+    n_jobs=-1
+)
 
-print(mae)
+print(f"Min: {round(maes.min(), 4)}\nAvg; {round(maes.mean(), 4)}\nStd: {round(maes.std(), 4)}")

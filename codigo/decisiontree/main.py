@@ -57,3 +57,5 @@ maes = -1*scores
 print("MAE por fold:", maes)
 print("MAE médio:", maes.mean())
 print("Desvio padrão:", maes.std())
+
+#pipe.fit(raw_x, raw_y)

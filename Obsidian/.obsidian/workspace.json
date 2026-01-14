@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7755d7f1a2ae5eaa",
+        "id": "bb0779df2cec36ab",
         "type": "tabs",
         "children": [
           {
-            "id": "d4234879a5426939",
+            "id": "4bb1017c40416581",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Técnicas de contorno/Validação cruzada.md",
-                "mode": "preview",
+                "file": "Técnicas de aprendizado/Random Forest.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validação cruzada"
+              "title": "Random Forest"
             }
           }
         ]
@@ -180,12 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "d4234879a5426939",
+  "active": "4bb1017c40416581",
   "lastOpenFiles": [
+    "Técnicas de contorno/Validação cruzada.md",
     "Técnicas de contorno/Pipelines.md",
     "Técnicas de contorno/Imputation.md",
     "Técnicas de contorno/Valores categóricos.md",
-    "Técnicas de contorno/Validação cruzada.md",
     "Técnicas de contorno/Treino.md",
     "Técnicas de contorno/Validação.md",
     "Técnicas de aprendizado/Árvore de decisão.md",

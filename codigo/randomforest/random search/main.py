@@ -5,7 +5,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 
-
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
@@ -76,19 +75,17 @@ print("Melhores parametros:")
 print(search.best_params_)
 print(f"Melhor MAE: {-search.best_score_}")
 
-
-
 model = search.best_estimator_
 
-test_data = pd.read_csv('E:/Programação/Kaggle/datasets/home-data-for-ml-course/test.csv')
+#test_data = pd.read_csv('E:/Programação/Kaggle/datasets/home-data-for-ml-course/test.csv')
 
-ids = test_data['Id']
-test_data.drop(columns=["Id"], inplace=True)
+#ids = test_data['Id']
+#test_data.drop(columns=["Id"], inplace=True)
 
-preds = model.predict(test_data)
+#preds = model.predict(test_data)
 
-submission = pd.DataFrame({
-    "Id": ids,
-    "SalePrice": preds
-})
-submission.to_csv('E:/Programação/Kaggle/datasets/home-data-for-ml-course/submission.csv', index=False)
+#submission = pd.DataFrame({
+#    "Id": ids,
+#    "SalePrice": preds
+#})
+#submission.to_csv('E:/Programação/Kaggle/datasets/home-data-for-ml-course/submission.csv', index=False)

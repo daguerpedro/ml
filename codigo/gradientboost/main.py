@@ -47,7 +47,9 @@ model = XGBRegressor(
     max_depth=4,    
     eval_metric='mae',
     early_stopping_rounds=25,
-    n_jobs=3
+    n_jobs=3,
+    min_child_weight=7,
+    colsample_bytree=0.8
 )               
 
 model.fit(

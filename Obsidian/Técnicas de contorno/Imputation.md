@@ -3,6 +3,7 @@ Substitui dados nulos usando estatística descritiva (como média, mediana, meno
 [[Scikit-learn]]
 ## Utilização
 [Docs](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)
+É mais eficiente/limpo utilizar dentro de uma [[Pipelines]] no pré-processamento com [ColumnTransformer](https://scikit-learn.org/stable/modules/generated/sklearn.compose.ColumnTransformer.html).
 Parâmetros:
 - ``missing_values``: **int, float, str, np.nan, None or pandas.NA, default=np.nan**
 	O placeholder para valores nulos, ao usar [[Pandas]] pode assumir `np.nan` ou `np.NA`
@@ -14,14 +15,3 @@ Parâmetros:
 	- If an instance of Callable, then replace missing values using the scalar statistic returned by running the callable over a dense 1d array containing non-missing values of each column.
 - ``add_indicator``: bool
 	If True, a [`MissingIndicator`](https://scikit-learn.org/stable/modules/generated/sklearn.impute.MissingIndicator.html#sklearn.impute.MissingIndicator "sklearn.impute.MissingIndicator") transform will stack onto output of the imputer’s transform. This allows a predictive estimator to account for missingness despite imputation. If a feature has no missing values at fit/train time, the feature won’t appear on the missing indicator even if there are missing values at transform/test time.
-```python
-from sklearn.impute import SimpleImputer
-imputer = SimpleImputer()
-
-imputed_X_train = pd.DataFrame(imputer.fit_transform(X_train))
-imputed_X_valid = pd.DataFrame(imputer.transform(X_valid))
-
-# Imputation removed column names; put them back
-imputed_X_train.columns = X_train.columns
-imputed_X_valid.columns = X_valid.columns
-```

@@ -1,5 +1,5 @@
 ### Princípio
-O modelo de boost de gradiente é uma alternativa aos modelos de [[Árvore de decisão]] e [[Random Forest]], que utiliza o método do gradiente (Gradient Descent) para otimizar a função de "perda" (Como por exemplo a função do MAE [[Validação]]).
+O modelo de árvores com boost de gradiente é um modelo baseado em [[Árvore de decisão]] / [[Random Forest]], que utiliza o método do gradiente (Gradient Descent) para otimizar árvores iterativamente através de uma função de "perda" (Como por exemplo a função do MAE [[Validação]]).
 ## Utilização
 A biblioteca [xgboost](https://xgboost.readthedocs.io/en/latest/index.html) possui modelos melhor otimizados e implementações próprias de [[Scikit-learn]] | [Scikit-learn Gradient Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html).
 Parâmetros importantes:
